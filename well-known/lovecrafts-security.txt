@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:infosec@lovecrafts.com
+Encryption: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x8E141ABD57283D98  #infosec@
+Preferred-Languages: en
+Canonical: https://www.lovecrafts.com/.well-known/security.txt
+Policy: https://www.lovecrafts.com/security.html
+Hiring: https://team.lovecrafts.com/
+Alt Contact: mailto:sysadmins@lovecrafts.com
+Alt Encryption: http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x84FAD8EE05EE393C #sysadmins@
+
+We do not currently operate a bug bounty programme. If and when we do this file will be updated.
+
+We request that people refrain from using automated tools such as Nessus, Burp, OWASP ZAP against our production sites,
+as it is important to maintain our services' availability. We have those tools too, please do not mail us automated reports.
+
+Whilst we admire researchers enthusiasm and appreciate notifications,
+to protect your valuable time and ours please *DO NOT* contact us with the following:
+
+* Assumed vulnerabilities based upon version numbers only
+* Authentication bypasses that require access to software/hardware tokens
+* Attacks that require social engineering (phishing)
+* Clickjacking attacks without a documented series of clicks that produce a vulnerability
+* Content injection, such as reflected text or HTML tags
+* CSRF for non-significant actions (logout, etc.)
+* Denial-of-service attacks or issues related to rate limiting
+* Missing HTTP headers, except as where their absence fails to mitigate an existing attack
+* Self-XSS
+* Spam (and issues related to SPF/DKIM/DMARC)
+* Vulnerabilities that only affect a specific browser
+* Vulnerabilities that require access to passwords, tokens, or the local system
+* Vulnerabilities discovered shortly after their public release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE2Ow6r7Bv8eIt7O8SjhQavVcoPZgFAl9R9FgACgkQjhQavVco
+PZi7mg//V5yxV5NF5smeRw/BO2T/YsQ2gsoFzbpysgw3lHLeWHhcUZFrRuZkGrWL
+jDcmdGlCI9/slGYLDg/jY5mTxHgwm6zx56t9DhDndajDP5X0a/YMuJCzTTvSsSTD
+WcDmy8ONpTIxeZaMP3U7fGn68j4SlSJT5Rj6xR7Yrjw8vPCbInYHuOH4yItJhV1V
+uVl9Hl2kr4zPs7goMUmbCoHGbByyiI403MUNUJzzPs/T/92GlAnK+Hr+DLSWQ8LT
+lJKumDmEll9jYbrWfg9+wvlkd1P0m/F0XdjFQxmtRur96RapjkpbFATPOOjXLKhE
+5TGoQj1eCYdOeZKTsAJkj9UI5k8ZUmxwteE+TBSpRjwlGxngk1ZKVyNOXrFFn28A
+2eAlvG+lTXg1N8cshLdZMCnUFdQsCxMzNtmJsYR0+PzLtMpU2c/fgMxVK3/1K7Fm
+1HvD9mq+R86/B73IhByx0rpXTTjYRQNh/qoamb4lqfO4zzUlS8fu1dzbu7nvN1v7
+SiOTe7HodI8ZXBP0hjNgJ5ZeAhV1TvtnFV7xSA8gh+sVhVUH5zPN7tB3ZwP9kMIM
+W36HEDuWOTu1iD9J+NeIJ9GtA7hdT9fBcrbwXCQn1d8lE59rc+lUMaI8nlHoSUjg
+rQNBXHfisANg4nRSRLPI+33nhxrZ3mMAjNjJZUTxXS9Xol/O/Xk=
+=WACb
+-----END PGP SIGNATURE-----
