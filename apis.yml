@@ -1,8 +1,28 @@
 aid: lovecrafts
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovecrafts.png
 name: lovecrafts
-description: lovecrafts is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  LoveCrafts (LoveCrafts Group Limited) is a UK-based crafting commerce and
+  community platform — "your home to shop, share and dream in crafts" — selling
+  yarns and fibers, knitting, crochet, sewing, quilting and embroidery patterns,
+  supplies, tools, kits and fabrics, alongside free and paid patterns, tutorials
+  and inspiration content. It operates localized storefronts for North America,
+  the UK, Germany, Australia and France on a Nuxt-based e-commerce stack. LoveCrafts
+  was surfaced as a portfolio company of Balderton Capital and added to the API
+  Evangelist network. It exposes no public developer portal or API surface; the only
+  machine-discoverable public artifact is an RFC 9116 security.txt with a responsible-
+  disclosure policy (no bug bounty programme).
 url: https://raw.githubusercontent.com/api-evangelist/lovecrafts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Crafts
+- E-Commerce
+- Retail
+- Marketplace
+- Community
+- Patterns
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.lovecrafts.com/
+- type: SecurityTxt
+  url: well-known/lovecrafts-security.txt
+- type: WellKnown
+  url: well-known/lovecrafts-well-known.yml
+- type: DomainSecurity
+  url: security/lovecrafts-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/lovecrafts-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.lovecrafts.com/security.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
