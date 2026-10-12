@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/lovecrafts/integrations
+- https://n8n.io/integrations/lovecrafts/
+- https://composio.dev/toolkits/lovecrafts
+- https://monid.ai/tools/lovecrafts
+checked:
+- https://composio.dev/toolkits/lovecrafts
+- https://monid.ai/tools/lovecrafts
+- https://n8n.io/integrations/lovecrafts/
+- https://zapier.com/apps/lovecrafts/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
